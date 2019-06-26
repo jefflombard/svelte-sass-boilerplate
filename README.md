@@ -14,7 +14,7 @@ This project is based off of [sveltejs/template](https://github.com/sveltejs/tem
 2. Global/Common SASS can be added to `src/styles`.
 3. On an individual component you can now add the `type="text/sass"` attribute.
 
-### Example
+### Example of Component Styling using Sass
 
 ```html
   <style type="text/sass">
@@ -24,6 +24,17 @@ This project is based off of [sveltejs/template](https://github.com/sveltejs/tem
     }
   }
   </style>
+```
+
+### The `src/` dir with styles
+
+```
+src
+  ├── styles
+  |     ├── globals.scss     <--  For Variables, etc.
+  |     └── main.scss        <--  Main scss file that imports everything else in this folder
+  ├── App.svelte
+  └── main.js
 ```
 
 
