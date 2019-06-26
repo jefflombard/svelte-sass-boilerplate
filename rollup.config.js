@@ -24,9 +24,9 @@ export default {
 			css: css => {
 				css.write('public/bundle.css');
 			},
-			preprocess: {
-				style: scss(),
-			}
+			// preprocess: {
+			// 	style: scss(),
+			// }
 		}),
 
 		// If you have external dependencies installed from

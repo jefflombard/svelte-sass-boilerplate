@@ -35,7 +35,7 @@ This project is based off of [sveltejs/template](https://github.com/sveltejs/tem
 ```
 src
   ├── styles
-  |     ├── globals.scss     <--  For Variables, etc.
+  |     ├── variables.scss   <--  For Variables, etc.
   |     └── main.scss        <--  Main scss file that imports everything else in this folder
   ├── App.svelte
   └── main.js
