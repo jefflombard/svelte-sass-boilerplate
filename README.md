@@ -1,4 +1,6 @@
 # svelte-sass-boilerplate
+The goal of this project is to give you a no config template for creating Svelte apps with SCSS.
+
 This project is based off of [sveltejs/template](https://github.com/sveltejs/template).
 
 ## Getting Started
