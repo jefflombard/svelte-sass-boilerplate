@@ -5,10 +5,12 @@ This project is based off of [sveltejs/template](https://github.com/sveltejs/tem
 
 ## Getting Started
 
-1. Click the `Use this template` button.
+1. Click the `Use this template`
 2. Clone your newly created repo using `git clone <repo_name>`
 3. `cd <repo_name>`
 4. `yarn` to install dependencies.
+
+*Note*: You can also just clone this repo using `git clone --bare https://github.com/jefflombard/svelte-sass-boilerplate` and run `git init` in the new project.
 
 ## Usage
 
