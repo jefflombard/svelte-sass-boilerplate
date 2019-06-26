@@ -15,13 +15,12 @@ This project is based off of [sveltejs/template](https://github.com/sveltejs/tem
 ## Usage
 
 1. Start a local dev server by running `yarn dev`.
-2. Global/Common SASS can be added to `src/styles`.
-3. On an individual component you can now add the `type="text/sass"` attribute.
+2. On an individual component you can now add the `lang="scss"` attribute. (use `global` attribute to make styles global)
 
 ### Example of Component Styling using Sass
 
 ```html
-  <style type="text/sass">
+  <style lang="scss">
   .main {
     p {
       color: blue;
@@ -29,18 +28,6 @@ This project is based off of [sveltejs/template](https://github.com/sveltejs/tem
   }
   </style>
 ```
-
-### The `src/` dir with styles
-
-```
-src
-  ├── styles
-  |     ├── variables.scss   <--  For Variables, etc.
-  |     └── main.scss        <--  Main scss file that imports everything else in this folder
-  ├── App.svelte
-  └── main.js
-```
-
 
 ## Notable differences to [sveltejs/template](https://github.com/sveltejs/template)
 
