@@ -1,68 +1,33 @@
-*Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+# svelte-sass-boilerplate
+This project is based off of [sveltejs/template](https://github.com/sveltejs/template).
 
----
+## Getting Started
 
-# svelte app
+1. Click the `Use this template` button.
+2. Clone your newly created repo using `git clone <repo_name>`
+3. `cd <repo_name>`
+4. `yarn` to install dependencies.
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+## Usage
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
+1. Start a local dev server by running `yarn dev`.
+2. Global/Common SASS can be added to `src/styles`.
+3. On an individual component you can now add the `type="text/sass"` attribute.
 
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
+### Example
+
+```html
+  <style type="text/sass">
+  .main {
+    p {
+      color: blue;
+    }
+  }
+  </style>
 ```
 
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
 
+## Notable differences to [sveltejs/template](https://github.com/sveltejs/template)
 
-## Get started
-
-Install the dependencies...
-
-```bash
-cd svelte-app
-npm install
-```
-
-...then start [Rollup](https://rollupjs.org):
-
-```bash
-npm run dev
-```
-
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-
-## Deploying to the web
-
-### With [now](https://zeit.co/now)
-
-Install `now` if you haven't already:
-
-```bash
-npm install -g now
-```
-
-Then, from within your project folder:
-
-```bash
-now
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public
-```
+1. Use of server
+2. Sass is preconfigured
