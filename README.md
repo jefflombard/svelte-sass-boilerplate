@@ -42,5 +42,5 @@ src
 
 ## Notable differences to [sveltejs/template](https://github.com/sveltejs/template)
 
-1. Use of server
+1. Use of `live-server` - makes local dev easier.
 2. Sass is preconfigured
