@@ -2,7 +2,7 @@
 	export let name;
 </script>
 
-<style lang="scss" global>
+<style lang="scss">
 	h1 {
 		font-size: 100px;
 		span {

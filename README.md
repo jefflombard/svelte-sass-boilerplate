@@ -15,7 +15,7 @@ This project is based off of [sveltejs/template](https://github.com/sveltejs/tem
 ## Usage
 
 1. Start a local dev server by running `yarn dev`.
-2. On an individual component you can now add the `lang="scss"` attribute. (use `global` attribute to make styles global)
+2. On an individual component you can now add the `lang="scss"` attribute.
 
 ### Example of Component Styling using Sass
 
